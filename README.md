@@ -15,21 +15,22 @@
 
 <table>
 <tr>
-
 <td align="center" width="50%">
+
+**🇬🇧 English**
 
 [📖 Open index](./en/README.md)
 
 [Standards](./en/standards.md) · [Template](./en/template.md)
 
+</td>
 <td align="center" width="50%">
+
+**🇷🇺 Русский**
 
 [📖 Открыть индекс](./ru/README.md)
 
 [Стандарты](./ru/standards.md) · [Шаблон](./ru/template.md)
-
-</td>
-
 
 </td>
 </tr>

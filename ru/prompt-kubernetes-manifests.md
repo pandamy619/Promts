@@ -1,5 +1,7 @@
 # Промт — Kubernetes манифесты сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-kubernetes-manifests.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #kubernetes #devops #yaml #service #single-shot

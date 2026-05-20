@@ -1,5 +1,7 @@
 # Промт — GraphQL схема сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-graphql-schema.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #graphql #backend #schema #service #single-shot

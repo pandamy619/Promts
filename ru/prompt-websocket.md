@@ -1,5 +1,7 @@
 # Промт — WebSocket сервис
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-websocket.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #websocket #realtime #backend #service #single-shot

@@ -1,5 +1,7 @@
 # Промт — API документация сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-api-documentation.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #api #documentation #backend #service #single-shot

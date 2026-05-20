@@ -1,5 +1,7 @@
 # Промт — Docker конфигурация сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-docker-config.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #docker #compose #devops #service #single-shot

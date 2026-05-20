@@ -1,5 +1,7 @@
 # Промт — Runbook деплоя сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-deployment-runbook.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #runbook #deploy #ops #service #single-shot

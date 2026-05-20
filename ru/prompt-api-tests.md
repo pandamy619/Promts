@@ -1,5 +1,7 @@
 # Промт — API тесты сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-api-tests.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #api-testing #qa #backend #service #single-shot

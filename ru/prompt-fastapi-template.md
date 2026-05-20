@@ -1,5 +1,7 @@
 # Промт — Шаблон FastAPI сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-fastapi-template.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #fastapi #backend #service #template #single-shot

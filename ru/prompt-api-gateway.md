@@ -1,5 +1,7 @@
 # Промт — API Gateway для микросервисов
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-api-gateway.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #api-gateway #microservice #security #devops #single-shot

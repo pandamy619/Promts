@@ -1,5 +1,7 @@
 # Промт — REST API сервис
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-rest-api.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #rest-api #openapi #backend #service #single-shot

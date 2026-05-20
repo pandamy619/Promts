@@ -1,5 +1,7 @@
 # Промт — Нагрузочное тестирование сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-load-testing.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #performance #load-testing #qa #service #single-shot

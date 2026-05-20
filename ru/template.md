@@ -1,5 +1,7 @@
 # Промт — <название_задачи>
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/template.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md)
 
 tags: #prompt #<тема> #<жанр>

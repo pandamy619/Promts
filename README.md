@@ -1,68 +1,72 @@
 # Promts
 
-> Подборка русскоязычных промтов для проектирования и шаблонизации сервисов. Обновлено: 2026-05-19
-
-Перед правками или добавлением — [Стандарты библиотеки](./standards.md) и [Эталонная карточка](./template.md).
+> A bilingual library of LLM prompts for backend / platform engineering tasks.
+> Двуязычная библиотека LLM-промтов для backend / platform задач.
 
 ---
 
-## Навигация
+## Choose your language / Выберите язык
 
-| Файл                                         | Что внутри                                                               | Жанр            |
-| -------------------------------------------- | ------------------------------------------------------------------------ | --------------- |
-| [Промт — Архитектура микросервиса](./prompt-microservice-architecture.md)         | Разбиение на сервисы, границы домена, данные, интеграции и план миграции | `#single-shot` |
-| [Промт — Шаблон FastAPI сервиса](./prompt-fastapi-template.md)           | Генерация production-ready шаблона backend-сервиса на FastAPI            | `#single-shot` |
-| [Промт — REST API сервис](./prompt-rest-api.md)                  | Проектирование REST API, OpenAPI-спеки и implementation guide            | `#single-shot` |
-| [Промт — GraphQL схема сервиса](./prompt-graphql-schema.md)            | Типы, queries, mutations, federation и auth-паттерны                     | `#single-shot` |
-| [Промт — Docker конфигурация сервиса](./prompt-docker-config.md)      | Dockerfile, Compose и контейнеризация под dev/prod                       | `#single-shot` |
-| [Промт — Kubernetes манифесты сервиса](./prompt-kubernetes-manifests.md)     | Deployment, Service, Ingress, ConfigMap, Secret и security baseline      | `#single-shot` |
-| [Промт — CI-CD для сервиса](./prompt-ci-cd.md)                | Полный пайплайн проверки, сборки, деплоя и отката                        | `#single-shot` |
-| [Промт — Runbook деплоя сервиса](./prompt-deployment-runbook.md)           | Пошаговый runbook релиза с health-check и rollback                       | `#single-shot` |
-| [Промт — API Gateway для микросервисов](./prompt-api-gateway.md)    | Конфигурация gateway, auth, rate limits, routing и observability         | `#single-shot` |
-| [Промт — API документация сервиса](./prompt-api-documentation.md)         | Генерация единообразной документации по endpoint-спеке                   | `#single-shot` |
-| [Промт — API тесты сервиса](./prompt-api-tests.md)                | Набор позитивных, негативных, security и edge-case тестов                | `#single-shot` |
-| [Промт — Нагрузочное тестирование сервиса](./prompt-load-testing.md) | k6/Locust-подобный baseline для latency, throughput и stress             | `#single-shot` |
-| [Промт — WebSocket сервис](./prompt-websocket.md)                 | Шаблон real-time backend-сервиса с auth, scaling и протоколом            | `#single-shot` |
-| [Промт — Архитектурный review сервиса](./prompt-architecture-review.md)     | Формальный разбор рисков и слабых мест существующего дизайна             | `#single-shot` |
+<table>
+<tr>
+<td align="center" width="50%">
 
-## Легенда статусов
+### 🇷🇺 Русский
 
-| Статус             | Значение                                              |
-| ------------------ | ----------------------------------------------------- |
-| `📋 Template`      | Каркас, нужно дорабатывать под конкретный кейс        |
-| `🟢 Ready`         | Проверен, можно использовать без доработок            |
-| `🧪 Experimental`  | Собран по стандарту, но мало реальных прогонов        |
+[📖 Открыть индекс](./ru/README.md)
 
-## Легенда жанров
+[Стандарты](./ru/standards.md) · [Шаблон](./ru/template.md)
 
-| Жанр            | Когда подходит                                                                 |
-| --------------- | ------------------------------------------------------------------------------ |
-| `#single-shot`  | Инструкция → большой ответ. Default для простых задач.                         |
-| `#staged`       | План → подтверждение → исполнение по шагам. Для тяжёлых задач.                 |
-| `#critique`     | Draft → self-review → improve. Для review, QA, аудита.                         |
-| `#interview`    | Модель сама задаёт вопросы, потом действует. Когда контекста объективно мало. |
+</td>
+<td align="center" width="50%">
 
-## Принцип подбора
+### 🇬🇧 English
 
-- Все промты собраны по мотивам найденных в интернете шаблонов и переведены/адаптированы под русскоязычный engineering-контекст.
-- Упор сделан на backend и platform задачи: сервис, инфраструктура, документация, деплой.
-- Внутри каждой заметки есть ссылка на исходники, чтобы при необходимости вернуться к оригинальной идее.
+[📖 Open index](./en/README.md)
 
-## Бэклог
+[Standards](./en/standards.md) · [Template](./en/template.md)
 
-Что планируется добавить, и в каком жанре:
+</td>
+</tr>
+</table>
 
-- Incident response runbook — `#single-shot`
-- Postmortem template — `#single-shot`
-- Observability / SLO дизайн — `#staged`
-- Data migration / schema change — `#staged`
-- Threat modeling — `#critique`
-- Supply chain security (SBOM, signing) — `#single-shot`
+---
 
-Что планируется переписать под другой жанр:
+## What's inside / Что внутри
 
-- Архитектура микросервиса → `#staged` (тяжёлая задача, выгодно идти по шагам)
-- Архитектурный review → `#critique` (естественный жанр для review)
-- FastAPI шаблон → `#staged` (большой выход по файлам)
-- Kubernetes манифесты → `#staged` (много манифестов, каждый зависит от предыдущих)
-- CI-CD → `#staged` (большой конфиг)
+20 production-grade prompts covering architecture, APIs, infrastructure, operations, and testing. Each prompt follows a single standard: explicit metadata, behavior for missing context, definition of done, anti-examples, and genre tag (single-shot / staged / critique / interview).
+
+Heavy prompts (microservice architecture, FastAPI template, K8s, CI/CD) ship with a `{{mode}}` switch — `quick` for fast drafts, `staged` or `critique` for serious work that benefits from explicit phases.
+
+20 production-grade промтов по архитектуре, API, инфраструктуре, операционке и тестированию. Каждый промт по единому стандарту: явные метаданные, поведение при нехватке контекста, definition of done, антипримеры, тег жанра (single-shot / staged / critique / interview).
+
+Тяжёлые промты (архитектура микросервиса, FastAPI шаблон, K8s, CI/CD) поддерживают переключатель `{{mode}}` — `quick` для быстрых драфтов, `staged` или `critique` для серьёзной работы, которой нужны явные фазы.
+
+---
+
+## Structure / Структура
+
+```
+.
+├── README.md          ← you are here / вы здесь (language picker)
+├── ru/                ← Russian version / русская версия
+│   ├── README.md      ← index / индекс
+│   ├── standards.md
+│   ├── template.md
+│   └── prompt-*.md    × 20
+└── en/                ← English version / английская версия
+    ├── README.md
+    ├── standards.md
+    ├── template.md
+    └── prompt-*.md    × 20
+```
+
+Each file has a 🇷🇺/🇬🇧 toggle at the top — one click takes you to the same file in the other language.
+
+В каждом файле сверху — переключатель 🇷🇺/🇬🇧, один клик переводит на тот же файл на другом языке.
+
+---
+
+## License
+
+(добавь позже / add later, e.g. MIT, Apache 2.0, CC-BY-SA)

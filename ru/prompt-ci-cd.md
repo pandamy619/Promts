@@ -1,5 +1,7 @@
 # Промт — CI-CD для сервиса
 
+> 🇷🇺 **Русский** · [🇬🇧 English](../en/prompt-ci-cd.md)
+
 [← Index](./README.md) · [Стандарты](./standards.md) · [Шаблон](./template.md)
 
 tags: #prompt #ci-cd #devops #pipeline #service #single-shot

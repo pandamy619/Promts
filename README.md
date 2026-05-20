@@ -1,5 +1,11 @@
 # Promts
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Languages: RU + EN](https://img.shields.io/badge/languages-RU%20%2B%20EN-orange)](#choose-your-language--выберите-язык)
+[![Prompts: 20](https://img.shields.io/badge/prompts-20-brightgreen)](#whats-inside--что-внутри)
+[![Last commit](https://img.shields.io/github/last-commit/pandamy619/Promts)](https://github.com/pandamy619/Promts/commits/main)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
+
 > A bilingual library of LLM prompts for backend / platform engineering tasks.
 > Двуязычная библиотека LLM-промтов для backend / platform задач.
 
@@ -9,22 +15,21 @@
 
 <table>
 <tr>
+
 <td align="center" width="50%">
 
-### 🇷🇺 Русский
+[📖 Open index](./en/README.md)
+
+[Standards](./en/standards.md) · [Template](./en/template.md)
+
+<td align="center" width="50%">
 
 [📖 Открыть индекс](./ru/README.md)
 
 [Стандарты](./ru/standards.md) · [Шаблон](./ru/template.md)
 
 </td>
-<td align="center" width="50%">
 
-### 🇬🇧 English
-
-[📖 Open index](./en/README.md)
-
-[Standards](./en/standards.md) · [Template](./en/template.md)
 
 </td>
 </tr>
@@ -61,12 +66,20 @@ Heavy prompts (microservice architecture, FastAPI template, K8s, CI/CD) ship wit
     └── prompt-*.md    × 20
 ```
 
-Each file has a 🇷🇺/🇬🇧 toggle at the top — one click takes you to the same file in the other language.
-
-В каждом файле сверху — переключатель 🇷🇺/🇬🇧, один клик переводит на тот же файл на другом языке.
-
 ---
+
+## Contributing / Контрибьютить
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to add a new prompt, edit an existing one, and the style guide.
+
+См. [CONTRIBUTING.md](./CONTRIBUTING.md) — как добавить новый промт, как править существующий, и style guide.
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for release history. См. [CHANGELOG.md](./CHANGELOG.md) для истории релизов.
 
 ## License
 
-(добавь позже / add later, e.g. MIT, Apache 2.0, CC-BY-SA)
+[MIT](./LICENSE) — feel free to copy, adapt, redistribute, and use in commercial products. Attribution appreciated but not required.
+
+[MIT](./LICENSE) — можно копировать, адаптировать, распространять и использовать в коммерческих продуктах. Указание авторства приветствуется, но не обязательно.
